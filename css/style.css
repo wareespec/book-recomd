@@ -1,0 +1,79 @@
+header{
+    background-color : beige;
+    width: 100%; 
+    min-height: 90px; 
+    box-sizing: border-box;
+}
+
+
+body {
+    background-attachment: fixed;
+    margin: 0;
+    background-color :#E7DBF9 ;
+    background-image: radial-gradient(
+        circle at 50% 100%,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(255, 255, 255, 0.15) 45%,
+        transparent 46%
+    ); 
+}
+
+h1 {
+  font-family: "Chonburi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+p  {
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ h3  {
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5  {
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4  {
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+.line-sec::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px;
+    background: #555;
+    margin: 80px auto 0;
+}
+
+
+
+
+
+
+.footer-bg {
+    background-color: beige;
+}
