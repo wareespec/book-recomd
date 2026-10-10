@@ -1,30 +1,62 @@
 header{
-    background-color : beige;
+    background-color :#F5F5DC ;
     width: 100%; 
     min-height: 90px; 
     box-sizing: border-box;
 }
 
 
+
+
 body {
-    background-attachment: fixed;
     margin: 0;
-    background-color :#E7DBF9 ;
-    background-image: radial-gradient(
-        circle at 50% 100%,
-        rgba(255, 255, 255, 0.15) 0%,
-        rgba(255, 255, 255, 0.15) 45%,
-        transparent 46%
-    ); 
+    min-height: 100vh;
+
+    background-color: #E8D8F7;
+
+    background-image:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(255, 241, 168, 0.75) 0%,
+            rgba(255, 241, 168, 0.3) 8%,
+            transparent 18%
+        ),
+        radial-gradient(
+            circle at 85% 15%,
+            rgba(255, 236, 143, 0.65) 0%,
+            rgba(255, 236, 143, 0.2) 10%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at 75% 65%,
+            rgba(255, 245, 190, 0.7) 0%,
+            rgba(255, 245, 190, 0.25) 9%,
+            transparent 18%
+        ),
+        radial-gradient(
+            circle at 20% 85%,
+            rgba(255, 239, 160, 0.6) 0%,
+            transparent 17%
+        );
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+
+
+
+    
 h1 {
   font-family: "Chonburi", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-h2 {
+h3 {
   font-family: "Thasadith", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -55,25 +87,66 @@ h4  {
   font-style: normal;
 }
 
+nav  {
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.series-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
 
 
-
-
+.color-purple {
+    color:#654477 ;
+}
 
 .line-sec::after {
     content: "";
     display: block;
     width: 90%;
     height: 2px;
-    background: #555;
+    background: #654477;
     margin: 80px auto 0;
+}
+
+.border1{
+         background-color: white ;
+         border-radius: 15px;
 }
 
 
 
 
+.border2{
+background-color:#F5F5DC ;
+ border-radius: 15px;
+}
+
+.section3-bg {
+    background-color: #F5F5DC;
+    border-radius: 15px;
+}
 
 
-.footer-bg {
-    background-color: beige;
+.footer-border{
+    border-color: bisque;
+
+}
+
+.footer-bg{
+    background-color:#6A4C8A;
+    width: 100%;
+}
+
+.pfooter-color {
+color: #F5F5DC;
+
 }
